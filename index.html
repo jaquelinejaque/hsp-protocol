@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HSP Protocol · Universal Human Supervision Principle · Patent PCT/US26/11908</title>
+    <meta name="description" content="Official website for the Human Supervision Protocol (HSP), International Patent Application PCT/US26/11908, and Zenodo Published Research. Universal AI governance across Finance, Health, Legal, and Enterprise AI.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #050811;
+            --card-bg: #0E1626;
+            --card-border: #1E293B;
+            --primary: #6366F1;
+            --primary-light: #818CF8;
+            --text-main: #F8FAFC;
+            --text-sub: #94A3B8;
+            --gold: #F59E0B;
+            --emerald: #10B981;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', -apple-system, sans-serif; }
+        body { background: var(--bg); color: var(--text-main); line-height: 1.6; min-height: 100vh; display: flex; flex-direction: column; }
+        a { color: var(--primary-light); text-decoration: none; }
+        
+        .header { border-bottom: 1px solid var(--card-border); background: rgba(5, 8, 17, 0.85); backdrop-filter: blur(12px); position: sticky; top: 0; z-index: 100; padding: 20px 0; }
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
+        .nav-wrapper { display: flex; justify-content: space-between; align-items: center; }
+        .brand { font-size: 22px; font-weight: 800; background: linear-gradient(135deg, #818CF8, #6366F1); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .nav-links a { margin-left: 24px; font-size: 14px; font-weight: 500; color: var(--text-sub); transition: color 0.2s; }
+        .nav-links a:hover { color: var(--text-main); }
+        .nav-cta { background: var(--primary); color: white !important; padding: 10px 20px; border-radius: 8px; font-weight: 600; }
+
+        .hero { padding: 100px 0 60px; text-align: center; }
+        .badges { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; margin-bottom: 24px; }
+        .badge-pct { background: rgba(99, 102, 241, 0.15); color: var(--primary-light); border: 1px solid rgba(129, 140, 248, 0.3); padding: 6px 16px; border-radius: 20px; font-size: 13px; font-weight: 700; }
+        .badge-zenodo { background: rgba(245, 158, 11, 0.15); color: var(--gold); border: 1px solid rgba(245, 158, 11, 0.3); padding: 6px 16px; border-radius: 20px; font-size: 13px; font-weight: 700; }
+        
+        h1 { font-size: 56px; font-weight: 900; letter-spacing: -1.5px; line-height: 1.15; margin-bottom: 24px; background: linear-gradient(180deg, #FFFFFF 0%, #94A3B8 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .subtitle { font-size: 22px; color: var(--text-sub); max-width: 840px; margin: 0 auto 40px; font-weight: 400; }
+        
+        .btn-group { display: flex; justify-content: center; gap: 16px; margin-bottom: 80px; }
+        .btn { padding: 16px 36px; border-radius: 12px; font-weight: 700; font-size: 16px; transition: all 0.3s; }
+        .btn-primary { background: var(--primary); color: white; box-shadow: 0 10px 25px -5px rgba(99, 102, 241, 0.4); }
+        .btn-primary:hover { background: #4F46E5; transform: translateY(-2px); }
+        .btn-outline { background: transparent; color: var(--text-main); border: 1px solid var(--card-border); }
+        .btn-outline:hover { border-color: var(--text-sub); }
+
+        .exec-box { background: linear-gradient(135deg, rgba(14, 22, 38, 0.9), rgba(5, 8, 17, 0.95)); border: 1px solid #334155; border-radius: 20px; padding: 40px; margin-bottom: 60px; box-shadow: 0 20px 40px -15px rgba(0,0,0,0.6); }
+        .exec-box h2 { font-size: 26px; margin-bottom: 16px; color: #F1F5F9; display: flex; align-items: center; justify-content: space-between; }
+        .exec-box p { color: var(--text-sub); font-size: 16px; margin-bottom: 20px; }
+
+        .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; margin-bottom: 60px; }
+        .card { background: var(--card-bg); border: 1px solid var(--card-border); border-radius: 16px; padding: 32px; transition: transform 0.3s; }
+        .card:hover { transform: translateY(-4px); }
+        .card h3 { font-size: 20px; margin-bottom: 12px; color: #F1F5F9; }
+        .card p { color: var(--text-sub); font-size: 15px; }
+
+        .code-box { background: #090D16; border: 1px solid var(--card-border); border-radius: 12px; padding: 24px; font-family: monospace; color: #38BDF8; font-size: 14px; overflow-x: auto; margin-top: 16px; }
+
+        .footer { border-top: 1px solid var(--card-border); padding: 50px 0; margin-top: auto; text-align: center; color: var(--text-sub); font-size: 14px; }
+    </style>
+</head>
+<body>
+
+<header class="header">
+    <div class="container nav-wrapper">
+        <div class="brand">HSP Protocol</div>
+        <nav class="nav-links">
+            <a href="#about">About HSP</a>
+            <a href="#patent">PCT Patent</a>
+            <a href="#research">Zenodo Paper</a>
+            <a href="#licensing" class="nav-cta">IP Acquisition</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="hero">
+        <div class="container">
+            <div class="badges">
+                <span class="badge-pct">Patent Pending PCT/US26/11908</span>
+                <span class="badge-zenodo">Zenodo Published Research DOI: 10.5281/zenodo.14682001</span>
+            </div>
+            <h1>Universal Human Supervision Protocol</h1>
+            <p class="subtitle">The definitive international operational framework for verifiable, non-delegable human oversight in autonomous AI systems across Finance, Health, Legal, RegTech, and Enterprise AI.</p>
+            <div class="btn-group">
+                <a href="#licensing" class="btn btn-primary">Inquire for Patent Buyout / Licensing</a>
+                <a href="#research" class="btn btn-outline">Read Zenodo Whitepaper</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="container" id="about">
+        <div class="exec-box">
+            <h2>Executive Summary for Enterprise Acquirers & Buyers <span style="font-size: 14px; color: var(--emerald); font-weight: 700;">Patent PCT/US26/11908</span></h2>
+            <p>The <strong>Human Supervision Protocol (HSP)</strong> solves the critical global challenge of regulatory compliance for autonomous AI. Designed to fulfill strict requirements including <strong>EU AI Act Article 14</strong>, US Executive Orders, and ISO/IEC 42001, HSP ensures that critical AI decisions are deterministically bound by human authorization and audit trails.</p>
+            <div style="background: rgba(99, 102, 241, 0.1); border-left: 4px solid var(--primary); padding: 16px; border-radius: 8px; color: #CBD5E1;">
+                <strong>Global Patent Coverage:</strong> International Patent Application PCT/US26/11908 establishes priority for decision classification, human sign-off gates, and audit log generation across all high-risk AI deployments.
+            </div>
+        </div>
+
+        <div class="grid-3">
+            <div class="card">
+                <h3 style="color: #818CF8;">1. Productive Pillar</h3>
+                <p>AI models execute data processing and administrative drafting rapidly without exceeding strategic policy boundaries.</p>
+            </div>
+            <div class="card">
+                <h3 style="color: var(--gold);">2. Preventative Pillar</h3>
+                <p>Real-time risk scoring algorithms compute confidence horizons and automatically halt autonomous execution when thresholds are crossed.</p>
+            </div>
+            <div class="card">
+                <h3 style="color: var(--emerald);">3. Supervised Pillar</h3>
+                <p>Immutable audit trails enforce mandatory, non-delegable human sign-off before high-stakes system actuation.</p>
+            </div>
+        </div>
+
+        <div class="exec-box" id="patent" style="border-color: rgba(99, 102, 241, 0.4);">
+            <h2>Universal Multi-Industry Architecture</h2>
+            <p>HSP is a domain-agnostic protocol engineered for seamless enterprise integration:</p>
+            <ul style="margin-left: 20px; color: var(--text-sub); line-height: 1.8;">
+                <li><strong>FinTech & Banking:</strong> Automated credit scoring and loan underwriting with verified human approval logs.</li>
+                <li><strong>Healthcare & Medical AI:</strong> Diagnostic and clinical recommendation systems requiring physician validation.</li>
+                <li><strong>LegalTech & Compliance:</strong> Automated contract generation and regulatory auditing.</li>
+                <li><strong>Autonomous AI Agents:</strong> Execution guardrails for multi-agent LLM systems and code synthesis.</li>
+            </ul>
+            <div class="code-box">
+// HSP Protocol - Python Verification Hook Example
+from hsp_protocol import HumanSupervisionEngine
+
+engine = HumanSupervisionEngine(patent_id="PCT/US26/11908")
+verification = engine.audit_decision(action="EXECUTE_TRANSACTION", risk_score=0.87)
+
+if verification.requires_human_signoff:
+    print("Execution paused: Non-delegable human review required per HSP Article 14.")
+            </div>
+        </div>
+
+        <div class="exec-box" id="licensing" style="text-align: center; background: linear-gradient(135deg, rgba(99, 102, 241, 0.15), rgba(14, 22, 38, 0.95)); border-color: var(--primary);">
+            <h2>Global Patent Acquisition & IP Licensing</h2>
+            <p style="max-width: 700px; margin: 0 auto 24px;">Sovereign Chain Ltd manages direct IP assignment, full patent buyouts, and global enterprise licensing for Patent PCT/US26/11908 and the Zenodo-indexed research suite.</p>
+            <a href="mailto:jaqueline@aisocialcare.co.uk?subject=HSP%20Patent%20Acquisition%20%26%20Licensing%20Inquiry" class="btn btn-primary">Contact Founder for Acquisition / Licensing</a>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <p>&copy; 2026 Sovereign Chain Ltd &middot; Companies House 16139802 &middot; Patent PCT/US26/11908 &middot; Zenodo Research DOI: 10.5281/zenodo.14682001</p>
+    </div>
+</footer>
+
+</body>
+</html>
